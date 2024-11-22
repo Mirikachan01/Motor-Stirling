@@ -1,0 +1,123 @@
+/* General */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+}
+header h1 {
+    margin: 0;
+}
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Main */
+main {
+    padding: 20px;
+}
+main section {
+    margin-bottom: 40px;
+}
+main h2 {
+    color: #555;
+}
+main p {
+    line-height: 1.6;
+    margin: 10px 0;
+}
+main img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px 0;
+}
+
+/* Grid for Content */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.grid-container .item {
+    background-color: #fff;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.grid-container .item h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+}
+footer .footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+footer ul.social-links {
+    list-style: none;
+    padding: 0;
+}
+footer ul.social-links li {
+    display: inline;
+    margin: 0 10px;
+}
+footer ul.social-links li a {
+    color: white;
+    text-decoration: none;
+}
+footer p {
+    margin: 10px 0;
+}
+
+/* Flex Container */
+.flex-container {
+    display: flex;
+    align-items: flex-start; /* Alinea los elementos en la parte superior */
+    gap: 20px; /* Espacio entre el texto y la imagen */
+    margin: 20px 0; /* Espaciado superior e inferior */
+    text-align: left; /* Alineación del texto */
+}
+
+/* Contenido de texto */
+.flex-container .text-content {
+    flex: 1; /* Ocupa el espacio restante disponible */
+}
+
+.flex-container .text-content h3 {
+    margin-bottom: 10px; /* Espacio debajo del subtítulo */
+    color: #333; /* Color del subtítulo */
+}
+
+/* Contenido de la imagen */
+.flex-container .image-content img {
+    max-width: 100%; /* Asegura que la imagen no exceda su contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    border-radius: 8px; /* Bordes redondeados para la imagen */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra para la imagen */
+    width: 250px; /* Tamaño fijo para la imagen */
+}
